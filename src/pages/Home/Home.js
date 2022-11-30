@@ -1,9 +1,10 @@
 import "./Home.scss";
+import { IncDec } from "../../components/IncDec";
 
 export const Home = () => {
   return (
     <div className="Home">
-      <h1>Привет мир</h1>
+      <IncDec />
     </div>
   );
 };
