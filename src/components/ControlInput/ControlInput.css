@@ -1,0 +1,17 @@
+.Input-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.Input-text {
+    font-size: 26px;
+}
+
+.Input-propery {
+    min-width: 200px;
+    min-height: 35px;
+}
