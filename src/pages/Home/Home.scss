@@ -1,6 +1,4 @@
 .Home {
-  display: grid;
-  background-color: var(--black);
-  grid-template-columns: 0.8fr 3fr;
+  display: flex;
   position: relative;
 }
