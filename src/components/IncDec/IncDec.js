@@ -1,9 +1,9 @@
 import "./IncDec.scss";
 import { useState } from "react";
 
-export const IncDec = () => {
+export const IncDec = ({value = 20}) => {
   
-    let [count, setCount] = useState(0)
+    let [count, setCount] = useState(value)
 
     const inc = () => {
         setCount(count + 1);
