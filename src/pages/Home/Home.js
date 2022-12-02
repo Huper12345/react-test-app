@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div className="Home">
       <ControlInput />
-      <IncDec />
+      <IncDec>Counter</IncDec>
     </div>
   );
 };
