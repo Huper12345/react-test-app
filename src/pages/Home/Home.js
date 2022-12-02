@@ -1,12 +1,12 @@
 import "./Home.scss";
-import { IncDec } from "../../components/IncDec";
-import { ControlInput } from "../../components/ControlInput/ControlInput";
+import { PostList } from "../../components/PostList";
 
 export const Home = () => {
+  const list = ['Title', 'Title2', 'Title3'];
+  
   return (
     <div className="Home">
-      <ControlInput />
-      <IncDec>Counter</IncDec>
+      <PostList list={list} />
     </div>
   );
 };
